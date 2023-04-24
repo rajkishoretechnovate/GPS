@@ -44,13 +44,6 @@
 
 /*----------own css------------*/
 
-	@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-
 .bottom-contentlp h5{color:#01118A;}
 .bottom-contentlp h4{color:#01118A;}
 .itemlpkf{position:relative;}
@@ -83,6 +76,7 @@ ul.nav.nav-pills{margin:0px 0px 50px 0px!important;}
 .shdbox img{width:100%;}
 .txt-white h3{color:#fff;}
 .sml.z-tab.z-first.z-active.z-first-col.z-first-row{width:12%!important;float:left;margin:0px 20px 0px 0px!important;}
+.box1{background:#FBAD1A;border-radius:10px;}
 .box1 i{margin-bottom:0px!important;color:#fff!important;padding:10px!important;font-size: 30px!important;}
 .detail ul li{list-style-type: circle;}
 .lst li{list-style-type: circle;
@@ -91,7 +85,7 @@ ul.nav.nav-pills{margin:0px 0px 50px 0px!important;}
 		.fullw1{width:1000px!important;margin:0 auto;background:#fff!important;left:-250px;position:absolute;}
 		.fullw1 li:nth-last-child(a){width:300px!important;}
 		.fullw1 li{float:left;width:250px!important;}
-			.fullw1 li a{padding:10px!important;font-size:15px;}
+			.fullw1 li a{padding:10px!important;}
 		.fullw{width:1000px!important;margin:0 auto;background:#fff!important;}
 		.fullw li{float:left;width:100px!important;border:1px solid #000;}
 		.fullw li a{padding:10px!important;}
@@ -99,12 +93,9 @@ ul.nav.nav-pills{margin:0px 0px 50px 0px!important;}
 		.bx{text-align:center;border:1px solid #000;}
 		.bx a{font-size:13px;font-weight:bold;}
 		.bx img{widqth:100%;}
-		.fullw11 li a{color:#fff;}
-		.fullw111 li a{color:#fff;}
 		@media (max-width: 768px){
-		    
-		    .dmobile{display:block!important;}
-		    .ddesktop{display:none!important;}
+		    .d-none{display:block!important;}
+		    .d-block{display:none!important;}
 		}
 
 .sec.secsocial {
@@ -3121,7 +3112,7 @@ text-align: center;
 
 /*..... FOOTER ......*/
 .footer {
-	background: #10212f;
+	/*background: #10212f;*/
 	border-top: solid 6px #373e4c;
 }
 .footer .emergency {
@@ -4149,8 +4140,6 @@ color: #fbad1a;
 	/*height: 395px;*/
 	border:1px solid;
 	padding:10px 10px;
-	position:relative;
-
 }
 .shop-section .product-wraper .product h4{
 	margin-bottom: 5px;
